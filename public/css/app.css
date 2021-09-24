@@ -17,7 +17,20 @@ header{
     grid-template-columns: minmax(185px, 1fr) minmax(auto, 960px) minmax(165px, 1fr);
     grid-gap: 2rem;
 }
+.body-home{
+    display: grid;
+    
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 80px auto 80px; 
+    column-gap: 20px;
+    row-gap: 30px;
+    
 
+    
+}
+.Aantal{
+  border: 1px solid yellow;  
+}
 nav{
     min-width: 50%;
     max-width: 500px;
