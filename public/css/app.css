@@ -18,18 +18,22 @@ header{
     grid-gap: 2rem;
 }
 .body-home{
+    
     display: grid;
-    
-    grid-template-columns: 100px 100px 100px;
-    grid-template-rows: 80px auto 80px; 
-    column-gap: 20px;
-    row-gap: 30px;
-    
-
-    
+    grid-template-columns: 50px 50px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "aantal         snitch"
+    "totaal         snitch";
 }
 .Aantal{
-  border: 1px solid yellow;  
+    grid-area: aantal;
+}
+.snitch{
+    grid-area: snitch;
+}
+.totaal{
+    grid-area: totaal;
 }
 nav{
     min-width: 50%;
