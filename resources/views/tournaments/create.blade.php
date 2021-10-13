@@ -17,6 +17,14 @@
 			<label for="name">Naam toernooi</label>
 			<input type="text" id="name" name="name" class="form-control">
 		</div>
+		<div class="form-group">
+			<label for="date">Datum</label>
+			<input type="date" id="date" name="date" class="form-control">
+		</div>
+		<div class="form-group">
+			<label for="time">Start Tijd</label>
+			<input type="time" id="time" name="start_time" class="form-control">
+		</div>
 		<button type="submit">Opslaan</button>
 	</form>
 @endsection
