@@ -5,6 +5,7 @@
         <a href="/" class="active">Home</a>
         <a href="/tournaments">Toernooien</a>
         <a href="/teams">Teams</a>
+        <a href="/upcommingTournaments">Aankomende Toernooien</a>
         <a href="/players">Spelers</a>
     </nav>
 @endsection
